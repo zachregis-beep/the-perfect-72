@@ -1,0 +1,452 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>THE PERFECT 72 — Season Career</title><style>
+:root{--bg:#101914;--panel:#1b2921;--alt:#24362a;--line:#3b5140;--text:#f5f7ee;--muted:#b1c5b3;--lime:#c9ff7d;--gold:#ffdc92;--red:#ffac9c}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}button,input{font:inherit}button{cursor:pointer}button:disabled{opacity:.45;cursor:not-allowed}.shell{max-width:1200px;margin:auto;padding:25px 18px 75px}header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:16px;gap:10px}header strong{font-size:17px;letter-spacing:2px}header span{font-size:12px;color:var(--muted)}.hero{padding:35px 0 24px}.eyebrow{color:var(--lime);font-size:11px;letter-spacing:2px;font-weight:800;text-transform:uppercase}h1{font-size:clamp(38px,7vw,74px);line-height:1.02;letter-spacing:-2px;margin:10px 0 14px}h1 em{color:var(--lime);font-style:normal}h2{margin:5px 0 13px;font-size:24px;line-height:1.2}h3{margin:0 0 9px;font-size:17px}.muted,.hint{color:var(--muted)}.hint{font-size:12px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:20px}.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px;margin-bottom:18px}.hidden{display:none!important}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.choice,.event,.mini{background:var(--alt);border:1px solid var(--line);color:var(--text);border-radius:12px;padding:16px;text-align:left}.choice:hover,.event:hover{border-color:var(--lime);transform:translateY(-1px)}.choice .score{color:var(--lime);font-size:32px;font-weight:900}.choice .name{font-size:17px;font-weight:800;margin-top:13px}.choice .era{font-size:11px;color:var(--muted)}.buttons{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.btn,.ghost{padding:12px 17px;border-radius:10px;font-weight:800;border:1px solid var(--lime)}.btn{background:var(--lime);color:#142017}.ghost{background:transparent;color:var(--text);border-color:var(--line)}.ghost:hover{border-color:var(--lime)}input{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:13px;color:var(--text);width:100%;max-width:430px;margin:7px 0 10px}input:focus{outline:2px solid var(--lime)}.bar{height:7px;border-radius:8px;background:var(--alt);margin:14px 0 18px;overflow:hidden}.bar>div{height:100%;background:var(--lime);width:0;transition:width .2s}.slot{padding:12px 0;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:9px}.slot .symbol{font-size:21px}.slot .detail{flex:1}.slot .detail small{display:block;color:var(--muted);font-size:10px;letter-spacing:1px}.slot .detail b{font-size:13px}.slot .num{color:var(--lime);font-size:19px;font-weight:900}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}.stat{background:var(--alt);padding:13px;border-radius:11px}.stat b{display:block;font-size:20px;color:var(--lime)}.stat small{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.7px}.eventhead{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}.pill{border:1px solid var(--gold);color:var(--gold);font-size:11px;font-weight:800;padding:4px 9px;border-radius:30px;white-space:nowrap}.four{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0}.round{border:1px solid var(--line);border-radius:12px;padding:13px;text-align:center;background:var(--alt)}.round b{display:block;font-size:27px;color:var(--lime)}.round small{color:var(--muted)}table{border-collapse:collapse;width:100%;font-size:13px}th{text-align:left;color:var(--muted);font-size:10px;letter-spacing:1px}th,td{padding:10px 6px;border-bottom:1px solid var(--line)}td:last-child,th:last-child{text-align:right}.mine{color:var(--lime);font-weight:850}.scroll{max-height:340px;overflow:auto}.result{background:var(--alt);border-left:3px solid var(--lime);padding:14px;border-radius:7px;margin-top:14px}.schedule{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.scheduleitem{padding:12px;background:var(--alt);border:1px solid var(--line);border-radius:9px}.scheduleitem.active{border-color:var(--lime)}.scheduleitem.done{opacity:.7}.scheduleitem strong{display:block;font-size:12px}.scheduleitem small{display:block;color:var(--muted);font-size:10px}.foot{margin-top:18px;font-size:11px;color:var(--muted)}.legend{margin-top:5px;font-size:12px;color:var(--muted)}.scorecard{display:grid;grid-template-columns:repeat(9,1fr);gap:5px;margin-top:8px}.hole{background:var(--alt);border-radius:7px;padding:7px 2px;text-align:center;font-size:11px}.hole b{display:block;font-size:15px}.hole small{color:var(--muted)}.hole.good b{color:var(--lime)}.hole.bad b{color:var(--red)}@media(max-width:830px){.layout{grid-template-columns:1fr}.grid3{grid-template-columns:1fr}.schedule{grid-template-columns:1fr 1fr}}@media(max-width:480px){.four{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:repeat(2,1fr)}.scorecard{grid-template-columns:repeat(6,1fr)}.card{padding:17px}.shell{padding:18px 12px 50px}}
+</style>
+<style>
+.watch-overlay{position:fixed;inset:0;z-index:9999;background:rgba(2,9,8,.96);display:flex;align-items:center;justify-content:center;padding:12px}
+.watch-overlay.hidden{display:none}
+.watch-card{width:min(1050px,100%);max-height:96vh;overflow:auto;background:#10221e;border:1px solid #3b6755;border-radius:20px;padding:22px;color:#f5f8ee;box-shadow:0 24px 90px #000b}
+.watch-top,.watch-actions,.watch-metrics{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.watch-top h2{margin:4px 0 8px;color:white;font-size:clamp(18px,3vw,29px)}
+.watch-live{background:#d7fa87;color:#122719;border-radius:5px;padding:4px 9px;font-weight:900;font-size:11px;letter-spacing:1px}
+.watch-layout{display:grid;grid-template-columns:1.5fr 1fr;gap:14px}
+.watch-scene{position:relative;overflow:hidden;min-height:235px;border-radius:13px;background:linear-gradient(180deg,#6c9fb7 0%,#bad9d5 52%,#669f61 53%,#27683c 100%)}
+.watch-scene:after{content:"";position:absolute;bottom:-75px;left:10%;width:115%;height:140px;background:#80b875;border-radius:50%;transform:rotate(-8deg)}
+.watch-sun{position:absolute;top:19px;right:45px;width:44px;height:44px;border-radius:50%;background:#fff2ad;box-shadow:0 0 35px #ffec9d}
+.watch-hills{position:absolute;bottom:40%;width:100%;height:30%;background:#447d64;clip-path:polygon(0 90%,18% 30%,34% 80%,51% 10%,70% 75%,84% 20%,100% 90%,100% 100%,0 100%)}
+.watch-golfer{position:absolute;left:14%;bottom:31px;font-size:68px;z-index:2;transform-origin:bottom center}
+.watch-golfer.swing{animation:watchSwing .85s ease-in-out}
+.watch-ballflight{position:absolute;z-index:4;width:11px;height:11px;background:white;border-radius:50%;box-shadow:0 0 9px white;left:27%;bottom:42px;opacity:0}
+.watch-ballflight.fly{animation:watchFlight 1.15s ease-in-out forwards}
+.watch-scene-flag{position:absolute;right:16%;bottom:34px;height:85px;border-left:3px solid #fff;z-index:3}
+.watch-scene-flag:before{content:"";position:absolute;top:0;border-top:13px solid #ffdf67;border-bottom:13px solid transparent;border-right:38px solid transparent}
+@keyframes watchSwing{0%{transform:rotate(0)}35%{transform:rotate(-18deg)}65%{transform:rotate(17deg)}100%{transform:rotate(0)}}
+@keyframes watchFlight{0%{left:27%;bottom:42px;opacity:1;transform:scale(1)}52%{left:54%;bottom:160px;opacity:1;transform:scale(.7)}100%{left:80%;bottom:58px;opacity:0;transform:scale(.4)}}
+.watch-map{border-radius:13px;overflow:hidden;background:#1a4032;border:1px solid #42745d;min-height:235px;position:relative}
+.watch-map svg{display:block;width:100%;height:235px}
+.watch-map-label{position:absolute;top:10px;left:12px;background:#09291fd9;padding:5px 9px;border-radius:6px;font-size:11px;letter-spacing:1px;font-weight:800}
+.watch-map-ball{transition:cx .55s ease,cy .55s ease}
+.watch-metrics{background:#1c3830;border-radius:10px;padding:12px;margin-top:12px}
+.watch-metric small{display:block;color:#b4c9bd;font-size:10px;letter-spacing:1px}
+.watch-metric strong{font-size:20px}
+.watch-detail{padding:12px 0;min-height:75px}
+.watch-detail strong{font-size:17px}
+.watch-detail p{margin:5px 0;color:#c3d7cb}
+.watch-progress{height:7px;background:#2b493e;border-radius:99px;overflow:hidden;margin:10px 0}
+.watch-progress div{height:100%;background:#c7ef89;width:0;transition:width .25s}
+.watch-actions{justify-content:flex-start}
+.watch-actions button{padding:11px 14px;border-radius:9px;cursor:pointer;font-weight:750}
+.watch-primary{background:#c7ef89;color:#122719;border:0}
+.watch-secondary{background:transparent;color:white;border:1px solid #789e8d}
+.watch-actions button:focus-visible{outline:3px solid #fff}
+.watch-pace{color:#d2e7da;font-size:12px}
+@media(max-width:650px){.watch-layout{grid-template-columns:1fr}.watch-scene{min-height:175px}.watch-map svg{height:175px}.watch-map{min-height:175px}.watch-card{padding:13px}.watch-golfer{font-size:50px}}
+@media(prefers-reduced-motion:reduce){.watch-golfer.swing,.watch-ballflight.fly{animation:none}}
+ .watch-map svg{background:#174f36}
+.watch-status{font-size:12px;color:#bfe4c7}
+.watch-cut{background:#754329;color:#fff0ce;padding:5px 9px;border-radius:6px;font-size:12px}
+.watch-scene[data-club="Putt"] .watch-golfer{font-size:52px;left:45%;bottom:25px}
+.watch-scene[data-club="Chip / pitch"] .watch-golfer{left:32%}
+.watch-scene[data-club="Iron approach"] .watch-golfer{left:25%}
+.watch-scene[data-club="Putt"]{background:linear-gradient(#8bc5d5 0 38%,#71b66e 39% 100%)}
+</style>
+</head><body><div class="shell"><header><strong>⛳ THE PERFECT 72</strong><span>SEASON CAREER · FAN-MADE SIMULATION</span></header><section class="hero"><div class="eyebrow">Five legends. One creation. One full season.</div><h1>BUILD A <em>LEGEND.</em><br>CHASE THE MAJORS.</h1><p class="muted">Draft your ultimate golfer, give them a name, compete at real championship venues, and finish the season with earnings, trophies and a simulated world ranking.</p></section><div class="layout"><main>
+<section class="card" id="draftPanel"><div class="eyebrow">01 · Create your golfer</div><h2 id="draftHeading">Give your golfer a name</h2><div id="nameStage"><label for="playerName">Golfer name</label><input id="playerName" maxlength="28" placeholder="e.g. Alex Fairway" autocomplete="off"><p class="hint">Your name will appear on scoreboards, tournament results and the season review.</p><button class="btn" id="nameBtn">Start drafting →</button></div><div id="pickStage" class="hidden"><p class="muted" id="skillIntro"></p><div class="bar"><div id="progressFill"></div></div><div class="grid3" id="choices"></div><div class="buttons"><button class="ghost" id="rerollBtn">↻ Reroll (2)</button></div><p class="hint">Pick one of three random golfers for each skill. Each golfer can only be selected once.</p></div></section>
+<section class="card hidden" id="seasonPanel"><div class="eyebrow">02 · Season calendar</div><h2>Welcome to the tour, <span id="welcomeName"></span>.</h2><p class="muted">A 12-event career season, featuring all four men's majors. Courses and tournament names reflect the 2026 schedule; scores, fields, payouts and world rankings are game simulations.</p><div class="stats" id="introStats"></div><div class="schedule" id="schedule"></div><div class="buttons"><button class="btn" id="beginSeasonBtn">Begin season →</button><button class="ghost" id="redraftBtn">↻ Start over</button></div></section>
+<section class="card hidden" id="eventPanel"><div class="eventhead"><div><div class="eyebrow" id="eventCount"></div><h2 id="eventTitle"></h2><p class="muted" id="eventCourse"></p></div><span class="pill" id="majorPill"></span></div><div class="stats" id="careerStats"></div><div class="four" id="roundBoxes"></div><div class="result" id="eventStatus"></div><div id="scorecardWrap" class="hidden"><h3 id="scorecardTitle">Last round scorecard</h3><div class="scorecard" id="scorecard"></div></div><div class="buttons"><button class="btn" id="playRoundBtn">Play round 1 →</button><button class="ghost hidden" id="nextEventBtn">Next tournament →</button><button class="ghost" id="saveBtn">Save season</button></div><h3 style="margin-top:23px">Tournament leaderboard</h3><div class="scroll"><table><thead><tr><th>POS</th><th>PLAYER</th><th>TO PAR</th><th>PRIZE*</th></tr></thead><tbody id="eventLeaderboard"></tbody></table></div><p class="hint">*Projected prizes during an event. Payouts are finalized after round four. Each event uses a fictional game purse.</p></section>
+<section class="card hidden" id="reviewPanel"><div class="eyebrow">03 · Season review</div><h2 id="seasonTitle">Your season is complete</h2><p class="muted" id="seasonSummary"></p><div class="stats" id="finalStats"></div><h3>All tournament results</h3><div class="scroll"><table><thead><tr><th>EVENT</th><th>FINISH</th><th>SCORE</th><th>EARNED</th></tr></thead><tbody id="seasonResults"></tbody></table></div><div class="buttons"><button class="btn" id="shareBtn">↗ Copy season summary</button><button class="ghost" id="replayBtn">↻ New career</button></div><p class="hint">World ranking is a fictional season-based standing among the game's 48-player field; it is not your Official World Golf Ranking.</p></section>
+</main><aside><section class="card"><div class="eyebrow">Your golfer</div><h2 id="sidebarName">UNNAMED ROOKIE</h2><div id="slots"></div><p class="hint" id="buildSummary">Your five skills will appear here.</p><div class="stats"><div class="stat"><small>Rating</small><b id="buildRating">—</b></div><div class="stat"><small>Golfers</small><b id="rosterSize">—</b></div></div></section><section class="card"><div class="eyebrow">Season tracker</div><div class="stats"><div class="stat"><small>Earnings</small><b id="sideMoney">$0</b></div><div class="stat"><small>Wins</small><b id="sideWins">0</b></div><div class="stat"><small>Majors</small><b id="sideMajors">0</b></div><div class="stat"><small>World rank*</small><b id="sideRank">—</b></div></div><p class="hint">*In-game ranking, not OWGR.</p><button class="ghost" id="loadBtn">Continue saved season</button></section></aside></div><div class="foot">Independent fan-made prototype. No affiliation with Augusta National, PGA TOUR, championship organizers or golfers. Golfer attributes are subjective entertainment ratings. The 2026 tournament/venue names are real; event scoring, fields, purse amounts, payouts and ranking are fictional game mechanics. Offline single-file game.</div></div>
+
+<div id="watchOverlay" class="watch-overlay hidden" role="dialog" aria-modal="true" aria-label="Live golf broadcast">
+ <div class="watch-card">
+  <div class="watch-top"><div><span class="watch-live">● LIVE SIMULATION</span><h2 id="watchTitle">The Perfect 72</h2><span id="watchRound">ROUND 1</span></div><div style="text-align:right"><strong id="watchHole">HOLE 1 / 18</strong><div id="watchPar">PAR 4</div></div></div>
+  <div class="watch-layout">
+   <div class="watch-scene" aria-label="Animated golfer striking the ball"><div class="watch-sun"></div><div class="watch-hills"></div><div class="watch-scene-flag"></div><div id="watchGolfer" class="watch-golfer">🏌️</div><div id="watchBallflight" class="watch-ballflight"></div></div>
+   <div class="watch-map"><span class="watch-map-label">HOLE TRACKER · ILLUSTRATIVE</span>
+    <svg viewBox="0 0 340 235" role="img" aria-label="Overhead golf hole with animated ball position">
+     <rect width="340" height="235" fill="#245e3e"/>
+     <path d="M15 228 Q55 160 125 174 Q187 192 214 108 Q240 34 326 4" stroke="#3e8d53" stroke-width="110" fill="none"/>
+     <path d="M15 228 Q55 160 125 174 Q187 192 214 108 Q240 34 326 4" stroke="#83bb67" stroke-width="66" fill="none"/>
+     <ellipse cx="292" cy="32" rx="40" ry="29" fill="#a8d98b" transform="rotate(-20 292 32)"/>
+     <ellipse cx="157" cy="131" rx="25" ry="12" fill="#e9dcb0" transform="rotate(-30 157 131)"/>
+     <path d="M16 68 Q68 42 95 84 Q70 122 24 117Z" fill="#468eaa"/>
+     <path id="watchTrail" d="" stroke="#fff9c1" stroke-width="3" stroke-dasharray="5 6" fill="none" opacity=".9"/>
+     <circle id="watchMapBall" class="watch-map-ball" cx="42" cy="207" r="7" fill="white" stroke="#132f22" stroke-width="2"/>
+     <line x1="294" y1="31" x2="294" y2="8" stroke="white" stroke-width="2"/><path d="M294 8 L311 14 L294 20Z" fill="#ffda5f"/>
+     <text x="15" y="221" fill="white" font-size="10">TEE</text><text x="258" y="73" fill="#143a22" font-size="10" font-weight="bold">GREEN</text>
+    </svg>
+   </div>
+  </div>
+  <div class="watch-metrics"><div class="watch-metric"><small>GOLFER</small><strong id="watchPlayer">—</strong></div><div class="watch-metric"><small>ROUND SCORE</small><strong id="watchScore">E</strong></div><div class="watch-metric"><small>THROUGH</small><strong id="watchThrough">0 / 18</strong></div><div class="watch-metric"><small>SHOT</small><strong id="watchShotCount">1</strong></div></div>
+  <div class="watch-detail"><strong id="watchStroke">Tee shot</strong><p id="watchResult" aria-live="polite">Preparing to tee off</p></div>
+  <div class="watch-progress"><div id="watchBar"></div></div>
+  <div class="watch-actions"><button id="watchPause" class="watch-secondary">⏸ Pause</button><button id="watchSpeed" class="watch-secondary">Speed: 1×</button><button id="watchSkipHole" class="watch-secondary">Skip hole →</button><button id="watchSkip" class="watch-primary">Skip to round results →</button></div>
+  <p class="watch-pace">The course and shot paths are stylized illustrations. Shot sequences illustrate statistically calibrated hole scores; not historical shot-by-shot tracking.</p>
+ </div>
+</div>
+<script>
+'use strict';
+const SKILLS=[{key:'drive',name:'DRIVING',icon:'🚀'},{key:'approach',name:'IRON PLAY',icon:'🎯'},{key:'short',name:'SHORT GAME',icon:'✨'},{key:'putt',name:'PUTTING',icon:'⛳'},{key:'clutch',name:'CLUTCH',icon:'🏆'}];
+// Subjective video-game ratings (1–99), not statistically verified historical measurements.
+const RAW=`Tiger Woods|2000s|94|99|97|96|99
+Jack Nicklaus|1970s|95|97|94|95|99
+Rory McIlroy|2010s|99|93|87|88|91
+Phil Mickelson|2000s|87|92|99|93|96
+Scottie Scheffler|2020s|93|99|95|88|97
+Bryson DeChambeau|2020s|99|90|85|86|92
+Collin Morikawa|2020s|86|98|89|88|89
+Jordan Spieth|2010s|84|92|97|96|95
+Seve Ballesteros|1980s|87|86|99|94|97
+Ben Crenshaw|1980s|80|88|94|99|94
+Brad Faxon|1990s|81|83|91|99|88
+Ernie Els|2000s|91|94|94|91|93
+Vijay Singh|2000s|91|97|89|84|93
+Brooks Koepka|2010s|95|93|88|91|99
+Dustin Johnson|2010s|98|94|88|88|92
+Jon Rahm|2020s|95|96|94|92|97
+Justin Thomas|2010s|92|97|95|87|94
+Sergio García|2000s|93|98|90|80|89
+Annika Sörenstam|2000s|92|99|96|95|99
+Nelly Korda|2020s|96|96|92|93|96
+Lydia Ko|2010s|85|94|96|98|96
+Inbee Park|2010s|82|92|94|99|98
+Lorena Ochoa|2000s|94|95|94|95|96
+Nancy Lopez|1980s|88|93|96|96|98
+Arnold Palmer|1960s|96|92|91|93|97
+Gary Player|1960s|86|93|97|94|98
+Tom Watson|1980s|89|94|97|96|98
+Lee Trevino|1970s|87|97|96|95|97
+Fred Couples|1990s|95|94|91|90|93
+Nick Faldo|1990s|87|98|94|92|99
+Bobby Jones|1930s|93|96|95|96|99
+Sam Snead|1950s|97|96|93|91|97
+Walter Hagen|1920s|89|92|95|95|98
+Minjee Lee|2020s|88|98|94|89|94
+Cameron Smith|2020s|87|92|98|99|95
+Xander Schauffele|2020s|94|96|92|94|97
+Ben Hogan|1950s|93|99|91|91|98
+Gene Sarazen|1930s|91|96|97|94|97
+Byron Nelson|1940s|93|99|94|96|98
+Hale Irwin|1970s|87|95|94|96|98
+Johnny Miller|1970s|92|98|92|90|95
+Greg Norman|1990s|99|95|89|88|91
+José María Olazábal|1990s|88|95|99|92|96
+Bernhard Langer|1990s|87|95|97|89|97
+Ian Woosnam|1990s|97|92|92|92|94
+Davis Love III|1990s|96|94|92|90|92
+David Duval|1990s|94|97|88|94|93
+Payne Stewart|1990s|91|96|96|93|97
+Retief Goosen|2000s|90|94|92|98|97
+Adam Scott|2010s|96|97|90|86|94
+Jason Day|2010s|94|95|98|96|96
+Henrik Stenson|2010s|94|99|89|91|94
+Rickie Fowler|2010s|91|93|96|94|92
+Justin Rose|2010s|91|97|94|93|95
+Bubba Watson|2010s|99|89|91|88|94
+Webb Simpson|2010s|85|95|96|95|94
+Hideki Matsuyama|2020s|92|99|94|87|95
+Patrick Cantlay|2020s|90|95|91|97|94
+Viktor Hovland|2020s|96|98|85|91|93
+Tommy Fleetwood|2020s|91|97|95|92|93
+Ludvig Åberg|2020s|97|97|88|92|92
+Wyndham Clark|2020s|95|93|91|95|94
+Max Homa|2020s|90|95|94|93|93
+Shane Lowry|2020s|88|96|98|92|96
+Tyrrell Hatton|2020s|91|95|95|94|94
+Matt Fitzpatrick|2020s|91|97|95|95|96
+Tony Finau|2020s|96|94|93|90|91
+Akshay Bhatia|2020s|90|96|91|93|91
+Sahith Theegala|2020s|92|93|95|92|92
+Will Zalatoris|2020s|92|98|92|84|93
+Sam Burns|2020s|92|92|92|98|93
+Keegan Bradley|2020s|91|96|94|87|93
+Tom Kim|2020s|89|96|94|93|91
+Sungjae Im|2020s|89|95|92|94|93
+Corey Conners|2020s|92|98|87|86|91
+Robert MacIntyre|2020s|90|93|96|93|95
+Brian Harman|2020s|84|91|96|98|95
+J.J. Spaun|2020s|90|96|92|93|95
+Cameron Young|2020s|98|95|87|91|92
+Aaron Rai|2020s|89|98|91|94|94
+Harris English|2020s|91|92|95|94|94
+Patrick Reed|2010s|89|92|98|93|95
+Louis Oosthuizen|2010s|92|98|95|95|95
+Charl Schwartzel|2010s|91|95|94|92|95
+Martin Kaymer|2010s|92|96|94|92|95
+Graeme McDowell|2010s|86|95|96|94|96
+Zach Johnson|2000s|82|95|96|98|94
+Jim Furyk|2000s|83|98|95|94|95
+Steve Stricker|2000s|85|96|95|99|95
+K.J. Choi|2000s|88|95|94|93|94
+Yani Tseng|2010s|95|97|94|94|97
+Stacy Lewis|2010s|88|97|94|97|96
+Lexi Thompson|2010s|98|92|89|91|93
+Brooke Henderson|2020s|96|95|95|92|95
+Jin Young Ko|2020s|88|99|93|97|96
+Atthaya Thitikul|2020s|91|97|95|96|95
+Rose Zhang|2020s|90|97|94|94|94
+Ariya Jutanugarn|2010s|96|94|94|91|96
+Mickey Wright|1960s|96|99|94|96|99
+Kathy Whitworth|1970s|91|96|97|96|99
+Patty Berg|1950s|89|95|98|94|98`;
+const PLAYERS=RAW.split('\n').map(x=>{let [name,era,...a]=x.split('|');return {name,era,...Object.fromEntries(SKILLS.map((s,i)=>[s.key,+a[i]]))}});
+// Actual 2026 tournament/venue pairings. Purse values are fictional, rounded game balances.
+const EVENTS=[
+{name:'AT&T Pebble Beach Pro-Am',course:'Pebble Beach Golf Links',place:'Pebble Beach, California',month:'FEB',par:72,major:false,purse:20000000,difficulty:.018,bias:[.19,.27,.21,.25,.08]},
+{name:'The Genesis Invitational',course:'The Riviera Country Club',place:'Pacific Palisades, California',month:'FEB',par:71,major:false,purse:20000000,difficulty:.03,bias:[.23,.30,.17,.20,.10]},
+{name:'Arnold Palmer Invitational',course:'Bay Hill Club & Lodge',place:'Orlando, Florida',month:'MAR',par:72,major:false,purse:20000000,difficulty:.047,bias:[.27,.29,.16,.18,.10]},
+{name:'THE PLAYERS Championship',course:'TPC Sawgrass (Stadium Course)',place:'Ponte Vedra Beach, Florida',month:'MAR',par:72,major:false,purse:25000000,difficulty:.045,bias:[.16,.31,.22,.21,.10]},
+{name:'Masters Tournament',course:'Augusta National Golf Club',place:'Augusta, Georgia',month:'APR',par:72,major:true,purse:22500000,difficulty:.045,bias:[.19,.31,.14,.24,.12]},
+{name:'RBC Heritage',course:'Harbour Town Golf Links',place:'Hilton Head Island, South Carolina',month:'APR',par:71,major:false,purse:20000000,difficulty:.030,bias:[.12,.35,.22,.23,.08]},
+{name:'PGA Championship',course:'Aronimink Golf Club',place:'Newtown Square, Pennsylvania',month:'MAY',par:70,major:true,purse:20500000,difficulty:.058,bias:[.25,.29,.20,.14,.12]},
+{name:'the Memorial Tournament',course:'Muirfield Village Golf Club',place:'Dublin, Ohio',month:'JUN',par:72,major:false,purse:20000000,difficulty:.052,bias:[.22,.31,.19,.16,.12]},
+{name:'U.S. Open',course:'Shinnecock Hills Golf Club',place:'Southampton, New York',month:'JUN',par:70,major:true,purse:22500000,difficulty:.083,bias:[.18,.32,.25,.12,.13]},
+{name:'Genesis Scottish Open',course:'The Renaissance Club',place:'North Berwick, Scotland',month:'JUL',par:70,major:false,purse:9000000,difficulty:.038,bias:[.22,.27,.24,.18,.09]},
+{name:'The Open Championship',course:'Royal Birkdale Golf Club',place:'Southport, England',month:'JUL',par:70,major:true,purse:17750000,difficulty:.073,bias:[.17,.27,.27,.15,.14]},
+{name:'TOUR Championship',course:'East Lake Golf Club',place:'Atlanta, Georgia',month:'AUG',par:70,major:false,purse:40000000,difficulty:.044,bias:[.22,.30,.14,.21,.13]}
+];
+const $=id=>document.getElementById(id);const money=n=>'$'+Math.round(n).toLocaleString('en-US');const shortMoney=n=>n>=1000000?'$'+(n/1000000).toFixed(2)+'M':n>=1000?'$'+Math.round(n/1000)+'K':money(n);const score=x=>x===0?'E':x>0?'+'+x:'−'+Math.abs(x);const ord=n=>n+(n%100>=11&&n%100<=13?'th':n%10===1?'st':n%10===2?'nd':n%10===3?'rd':'th');const esc=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let state;const makeInitial=()=>({phase:'name',name:'',step:0,selected:{},offers:[],rerolls:2,eventIndex:0,rounds:[],field:[],eventScores:[],results:[],money:0,wins:0,majors:0,points:0,seasonFields:{},season:1,history:[],seed:Math.floor(Math.random()*4294967295)});
+const shuffle=(arr,rand=Math.random)=>{let out=[...arr];for(let i=out.length-1;i>0;i--){let j=Math.floor(rand()*(i+1));[out[i],out[j]]=[out[j],out[i]]}return out};function randSeed(seed){let a=seed>>>0;return()=>{a+=0x6D2B79F5;let t=a;t=Math.imul(t^(t>>>15),t|1);t^=t+Math.imul(t^(t>>>7),t|61);return((t^(t>>>14))>>>0)/4294967296}}function show(phase){['draftPanel','seasonPanel','eventPanel','reviewPanel'].forEach(id=>$(id).classList.add('hidden'));$(phase==='name'||phase==='draft'?'draftPanel':phase==='calendar'?'seasonPanel':phase==='event'?'eventPanel':'reviewPanel').classList.remove('hidden');$('nameStage').classList.toggle('hidden',phase!=='name');$('pickStage').classList.toggle('hidden',phase!=='draft');state.phase=phase;renderSidebar();}
+function newOffers(){let used=new Set(Object.values(state.selected).map(p=>p.name));state.offers=shuffle(PLAYERS.filter(p=>!used.has(p.name))).slice(0,3)}function renderSidebar(){let n=Object.keys(state.selected).length;$('sidebarName').textContent=state.name||'UNNAMED ROOKIE';$('rosterSize').textContent=PLAYERS.length;$('slots').innerHTML=SKILLS.map(s=>{let p=state.selected[s.key];return `<div class="slot"><span class="symbol">${s.icon}</span><div class="detail"><small>${s.name}</small><b>${p?esc(p.name):'Awaiting selection'}</b></div><span class="num">${p?p[s.key]:'—'}</span></div>`}).join('');$('buildRating').textContent=n?Math.round(Object.entries(state.selected).reduce((v,[k,p])=>v+p[k],0)/n):'—';$('buildSummary').textContent=n===5?'Your golfer is ready for the season!':`${n}/5 skills selected`;$('sideMoney').textContent=shortMoney(state.money);$('sideWins').textContent=state.wins;$('sideMajors').textContent=state.majors;$('sideRank').textContent=state.results.length?'#'+worldRank():'—'}function renderDraft(){let s=SKILLS[state.step];$('draftHeading').textContent=`Pick ${state.step+1}/5 · ${s.name}`;$('skillIntro').textContent=`Choose whose ${s.name.toLowerCase()} your golfer inherits.`;$('progressFill').style.width=(state.step/5*100)+'%';$('rerollBtn').textContent=`↻ Reroll (${state.rerolls})`;$('rerollBtn').disabled=state.rerolls===0;$('choices').innerHTML=state.offers.map((p,i)=>`<button class="choice" data-pick="${i}"><div class="eyebrow">${esc(p.era)} · Legend</div><div class="name">${esc(p.name)}</div><div class="era">${s.name} rating</div><div class="score">${p[s.key]}</div></button>`).join('');document.querySelectorAll('[data-pick]').forEach(b=>b.onclick=()=>pick(state.offers[+b.dataset.pick]))}function pick(p){let k=SKILLS[state.step].key;state.selected[k]=p;state.step++;renderSidebar();if(state.step===5){show('calendar');renderCalendar()}else{newOffers();renderDraft()}}
+function renderCalendar(){$('welcomeName').textContent=state.name;$('introStats').innerHTML=`<div class="stat"><small>Events</small><b>${EVENTS.length}</b></div><div class="stat"><small>Majors</small><b>4</b></div><div class="stat"><small>Players / event</small><b>48</b></div>`;$('schedule').innerHTML=EVENTS.map((e,i)=>`<div class="scheduleitem ${state.eventIndex===i?'active':''} ${i<state.eventIndex?'done':''}"><div class="eyebrow">${e.month} · EVENT ${i+1} ${e.major?'· ★ MAJOR':''}</div><strong>${esc(e.name)}</strong><small>${esc(e.course)} · Par ${e.par}</small><small>Game purse ${money(e.purse)}</small></div>`).join('')}
+function ratingFor(e){return SKILLS.reduce((n,s,i)=>n+state.selected[s.key][s.key]*e.bias[i],0)}function holesForPar(par){let a=[4,4,3,5,4,4,3,5,4,4,3,5,4,4,3,5,4,4];let d=par-72;if(d<0){for(let i of [3,11,7]){if(d>=0)break;a[i]--;d++}}return a}function simulateHole(par,r,difficulty,rng,clutch=90,last=false){let boost=(r-88)*.0075-difficulty+(last?(clutch-88)*.0018:0),eagle=par===5?Math.max(.005,Math.min(.07,.018+(r-87)*.002)):0,bird=Math.max(.09,Math.min(.53,.245+boost)),bogey=Math.max(.06,Math.min(.32,.16-boost*.47)),dbl=.019+difficulty*.16,v=rng();return v<eagle?-2:v<eagle+bird?-1:v<1-bogey-dbl?0:v<1-dbl?1:2}
+
+const COURSE_TYPES=['parkland','links','coastal','woodland'];
+function holeProfile(eventIndex,holeIndex,par){
+ const rng=randSeed(((eventIndex+1)*928371+(holeIndex+1)*170141)>>>0);
+ const yards=par===3?135+Math.floor(rng()*105):par===4?315+Math.floor(rng()*185):460+Math.floor(rng()*150);
+ return {yards,par,water:rng()<.31,bunkers:1+Math.floor(rng()*4),dogleg:rng()<.42,wind:Math.round(rng()*22),type:COURSE_TYPES[eventIndex%4],difficulty:.85+rng()*.5};
+}
+function simulateShotHole(par,profile,skills,rng,roundIndex,holeIndex){
+ let remaining=profile.yards,lie='Tee',shots=[],penalty=0,strokes=0;
+ const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
+ while(remaining>0 && strokes<12){
+  strokes++;
+  let skill,club,nominal,dispersion;
+  if(remaining<=2.5){skill=skills.putt;club='Putt';nominal=remaining;dispersion=clamp((100-skill)/95+.08,.09,.6)}
+  else if(remaining<=35){skill=skills.short;club='Chip / pitch';nominal=remaining;dispersion=clamp((100-skill)/65+.1,.09,.8)}
+  else if(remaining>190 && (lie==='Tee'||par===5)){skill=skills.drive;club=lie==='Tee'?'Drive':'Fairway wood';nominal=clamp(205+(skill-80)*3,180,320);dispersion=.12}
+  else {skill=skills.approach;club='Iron approach';nominal=clamp(remaining,65,195);dispersion=.14}
+  const pressure=roundIndex===3&&holeIndex>=14?.035:0;
+  const windEffect=profile.wind/210;
+  const miss=clamp(.10+(98-skill)*.009+profile.difficulty*.045+windEffect+pressure-(skills.clutch-85)*.002,.04,.62);
+  const bad=rng()<miss;
+  let carry=nominal*(bad?.69+rng()*.19:.89+rng()*.17);
+  let nextLie='Fairway',note='';
+  if(club==='Putt'){
+    const sink=rng()<clamp(.92-(remaining-1)*.17+(skill-88)*.012,.12,.98);
+    carry=sink?remaining:remaining*(.4+rng()*.48);
+    nextLie='Green';note=sink?'Holed putt':'Putt rolls past the cup';
+  }else if(remaining<=35){
+    carry=bad?remaining*(.42+rng()*.35):remaining*(.82+rng()*.18);
+    nextLie='Green';note=bad?'Chip leaves work to do':'Nice touch around the green';
+  }else{
+    const hazard=bad && rng()<(profile.water?.18:.03);
+    if(hazard){penalty++;nextLie='Penalty area';note='Water hazard · one penalty stroke';carry*=.52}
+    else if(bad){nextLie=rng()<.54?'Bunker':'Rough';note=nextLie==='Bunker'?'Ball finds a bunker':'Misses the fairway'}
+    else note='Clean strike';
+  }
+  const before=remaining;
+  remaining=Math.max(0,remaining-carry);
+  if(remaining<=25&&club!=='Putt'&&nextLie!=='Penalty area'){nextLie=remaining<=2.5?'Green':'Fringe';}
+  if(remaining<=.4){remaining=0;nextLie='Holed'}
+  if(nextLie==='Penalty area'){remaining+=22;nextLie='Rough'}
+  if(lie==='Bunker'&&club!=='Putt'){remaining+=Math.min(15,remaining*.13)}
+  shots.push({number:strokes+penalty,club,from:lie,to:nextLie,yards:Math.round(Math.min(before,carry)),remaining:Math.round(remaining),note,penalty,progress:clamp(1-remaining/profile.yards,0,1)});
+  lie=nextLie;
+ }
+ const total=strokes+penalty;
+ return {par,strokes:total,diff:total-par,shots,profile};
+}
+// Empirical calibration anchors: 2024 PGA Tour elite scoring averages ~68.6;
+// recent U.S. Open winning totals frequently -1 to -10, and Masters ~-11.
+// These are modeled distributions, not replayed historical scorecards.
+function calibratedHole(par,skill,course,rng){
+ const advantage=Math.max(-.14,Math.min(.14,(skill-87)*.008));
+ const difficulty=course.difficulty;
+ const pBird=Math.max(.08,Math.min(.43,(par===5?.39:par===3?.16:.25)+advantage-difficulty*.72));
+ const pEagle=par===5?Math.max(.002,Math.min(.035,.011+advantage*.1)):0;
+ const pDouble=Math.max(.012,Math.min(.09,.026+difficulty*.3));
+ const pBogey=Math.max(.10,Math.min(.40,(par===3?.21:.17)-advantage*.65+difficulty*.7));
+ const v=rng();
+ return v<pEagle?-2:v<pEagle+pBird?-1:v<pEagle+pBird+pBogey?1:v<pEagle+pBird+pBogey+pDouble?2:0;
+}
+function eventCalibration(e){
+ const n=e.name.toLowerCase();
+ if(n.includes('u.s. open'))return {difficulty:.14,meanWinner:-5,spread:4};
+ if(n.includes('masters'))return {difficulty:.055,meanWinner:-11,spread:4};
+ if(n.includes('open championship'))return {difficulty:.07,meanWinner:-10,spread:5};
+ if(n.includes('pga championship'))return {difficulty:.045,meanWinner:-13,spread:5};
+ return {difficulty:-.015,meanWinner:-16,spread:6};
+}
+function visualShotsForScore(par,profile,strokes,rng){
+ const shots=[];let remaining=profile.yards,lie='Tee';
+ for(let j=0;j<strokes;j++){
+  const left=strokes-j,final=left===1;
+  let club=final?'Putt':remaining>200?'Drive':remaining>35?'Iron approach':remaining>4?'Chip / pitch':'Putt';
+  let advance=final?remaining:remaining*(left===2?.94:remaining>200?.56:.68);
+  advance=Math.max(0,Math.min(remaining,advance));
+  const next=Math.max(0,remaining-advance);
+  const to=final?'Holed':next<=35?'Green':rng()<.08?'Rough':'Fairway';
+  shots.push({number:j+1,club,from:lie,to,yards:Math.round(advance),remaining:Math.round(next),note:final?'Ball in the cup':to==='Rough'?'Missed the fairway':'Solid contact',progress:1-next/profile.yards});
+  remaining=next;lie=to;
+ }
+ return shots;
+}
+function simulateMyRound(index){
+ const e=EVENTS[state.eventIndex],rng=randSeed((state.seed+state.eventIndex*1789+index*32671)>>>0);
+ const pars=holesForPar(e.par),cal=eventCalibration(e),skill=ratingFor(e);
+ const holes=pars.map((par,i)=>{
+  const profile=holeProfile(state.eventIndex,i,par);
+  const diff=calibratedHole(par,skill,{difficulty:cal.difficulty+(profile.difficulty-1.1)*.09},rng);
+  const strokes=Math.max(1,par+diff);
+  return {par,strokes,diff,profile,shots:visualShotsForScore(par,profile,strokes,rng)};
+ });
+ return {holes,total:holes.reduce((n,h)=>n+h.diff,0)};
+}
+function newField(){
+ let e=EVENTS[state.eventIndex],rng=randSeed((state.seed^((state.eventIndex+1)*73856093))>>>0);
+ let pool=shuffle(PLAYERS.filter(p=>!Object.values(state.selected).some(s=>s.name===p.name)),rng).slice(0,47);
+ let pars=holesForPar(e.par),cal=eventCalibration(e);
+ state.field=pool.map(p=>({name:p.name,skill:(p.drive+p.approach+p.short+p.putt+p.clutch)/5,
+ rounds:Array.from({length:4},()=>pars.reduce((total,par,h)=>{
+ const profile=holeProfile(state.eventIndex,h,par);
+ return total+calibratedHole(par,(p.drive+p.approach+p.short+p.putt+p.clutch)/5-2,{difficulty:cal.difficulty+(profile.difficulty-1.1)*.09},rng);
+ },0))}));
+ state.rounds=[];state.eventScores=[];state.missedCut=false;state.playoffWinner=null;
+}
+function rankRows(){let count=state.rounds.length,entries=[{name:state.name,mine:true,total:state.rounds.reduce((n,r)=>n+r.total,0)},...state.field.map(p=>({name:p.name,total:p.rounds.slice(0,count).reduce((n,x)=>n+x,0)}))].sort((a,b)=>a.total-b.total);let rank=0,last=null;entries.forEach((p,i)=>{if(p.total!==last){rank=i+1;last=p.total}p.rank=rank});return entries}
+// Game payout curve; not real PGA TOUR or championship prize distribution.
+function payout(rank,purse){if(rank>38)return 0;let weights=Array.from({length:38},(_,i)=>i===0?0.18:0.122*Math.pow(.858,i-1));let sum=weights.reduce((a,b)=>a+b,0);return Math.round(purse*weights[rank-1]/sum/100)*100}
+function rankPoints(rank,isMajor){let base=isMajor?100:70;return Math.round(base*Math.pow(.90,rank-1)*10)/10}function worldRank(){let my=state.points;let rivalPoints=Object.values(state.seasonFields).sort((a,b)=>b-a);return 1+rivalPoints.filter(x=>x>my).length}function updateWorldPoints(entries,e){entries.forEach(p=>{let pts=rankPoints(p.rank,e.major);if(p.mine)state.points+=pts;else state.seasonFields[p.name]=(state.seasonFields[p.name]||0)+pts})}
+function drawEvent(){let e=EVENTS[state.eventIndex],count=state.rounds.length,rows=rankRows(),me=rows.find(p=>p.mine),total=state.rounds.reduce((n,r)=>n+r.total,0);$('eventCount').textContent=`EVENT ${state.eventIndex+1} OF ${EVENTS.length} · ${e.month}`;$('eventTitle').textContent=e.name;$('eventCourse').textContent=`${e.course} · ${e.place} · Par ${e.par} · Simulated purse ${money(e.purse)}`;$('majorPill').textContent=e.major?'★ MAJOR':'TOUR EVENT';$('careerStats').innerHTML=`<div class="stat"><small>Position</small><b>${count?ord(me.rank):'—'}</b></div><div class="stat"><small>To par</small><b>${score(total)}</b></div><div class="stat"><small>Season earnings</small><b>${shortMoney(state.money)}</b></div>`;$('roundBoxes').innerHTML=[0,1,2,3].map((_,i)=>`<div class="round"><small>ROUND ${i+1}</small><b>${state.rounds[i]?(state.rounds[i].cutPlaceholder?'CUT':score(state.rounds[i].total)):'—'}</b></div>`).join('');$('eventLeaderboard').innerHTML=rows.slice(0,20).map(p=>`<tr class="${p.mine?'mine':''}"><td>${p.rank}</td><td>${esc(p.name)}</td><td>${score(p.total)}</td><td>${count?money(payout(p.rank,e.purse)):'—'}</td></tr>`).join('');let last=state.rounds[count-1];$('scorecardWrap').classList.toggle('hidden',!last||!!last.cutPlaceholder);if(last&&!last.cutPlaceholder){$('scorecardTitle').textContent=`Round ${count} scorecard · ${score(last.total)}`;$('scorecard').innerHTML=last.holes.map((h,i)=>`<div class="hole ${h.diff<0?'good':h.diff>0?'bad':''}"><small>${i+1} · P${h.par}</small><b>${h.strokes}</b></div>`).join('')};$('playRoundBtn').classList.toggle('hidden',count===4);$('nextEventBtn').classList.toggle('hidden',count!==4);$('playRoundBtn').textContent=`Play round ${count+1} →`;$('nextEventBtn').textContent=state.eventIndex===EVENTS.length-1?'View season review →':'Next tournament →';$('eventStatus').innerHTML=count===4&&state.missedCut?`<strong>MISSED CUT after 36 holes</strong><br>No prize money or ranking points earned.`:count===4?`<strong>FINAL: ${ord(me.rank)} place · ${score(total)}</strong><br>Prize earned: <strong>${money(payout(me.rank,e.purse))}</strong>${me.rank===1?'<br>🏆 Tournament champion!':''}`:`${count===0?'Tee it up!':'Round '+count+' complete.'} ${4-count} rounds remaining · ${e.major?'Major championship':'Tour event'}.`;if(state.missedCut&&count>=2&&count<4){$('eventStatus').innerHTML+='<br><span class="watch-cut">Missed 36-hole cut · remaining rounds are simulated for season continuity</span>'}if(count===4&&state.playoffWinner){$('eventStatus').innerHTML+='<br>Sudden-death playoff winner: <strong>'+esc(state.playoffWinner)+'</strong>'}renderSidebar()}
+function commitRound(round){state.rounds.push(round);
+ if(state.rounds.length===2){
+  const rows=rankRows(),me=rows.find(p=>p.mine);
+  state.missedCut=me.rank>Math.min(32,rows.length);
+  if(state.missedCut){
+   // A missed cut ends the player's event; no prize or ranking points.
+   state.rounds.push({holes:[],total:0,cutPlaceholder:true});
+   state.rounds.push({holes:[],total:0,cutPlaceholder:true});
+   state.results.push({name:EVENTS[state.eventIndex].name,major:EVENTS[state.eventIndex].major,course:EVENTS[state.eventIndex].course,rank:me.rank,score:state.rounds[0].total+state.rounds[1].total,prize:0,points:0,missedCut:true});
+  }
+ }
+if(state.rounds.length===4&&!state.missedCut){let rows=rankRows(),me=rows.find(p=>p.mine),e=EVENTS[state.eventIndex];
+ let tied=rows.filter(p=>p.total===rows[0].total);
+ if(tied.length>1&&me.rank===1){
+  const rng=randSeed((state.seed+state.eventIndex*95177+4491)>>>0);
+  const winner=tied[Math.floor(rng()*tied.length)];
+  state.playoffWinner=winner.name;
+  if(winner.name!==state.name)me.rank=2;
+ }else state.playoffWinner=null;
+ let prize=payout(me.rank,e.purse);state.money+=prize;if(me.rank===1){state.wins++;if(e.major)state.majors++}updateWorldPoints(rows,e);state.results.push({name:e.name,major:e.major,course:e.course,rank:me.rank,score:me.total,prize,points:rankPoints(me.rank,e.major),playoffWinner:state.playoffWinner})}drawEvent();persist()}
+
+let watchTimer=null,watchSession=null;
+const WATCH_PATH=[[42,207],[99,178],[155,157],[204,121],[249,79],[294,31]];
+function watchClose(){clearTimeout(watchTimer);watchTimer=null;$('watchOverlay').classList.add('hidden');watchSession=null}
+function playRound(){
+ if(state.rounds.length>=4||watchSession)return;
+ const round=simulateMyRound(state.rounds.length);
+ watchSession={round,roundIndex:state.rounds.length,hole:0,stroke:0,paused:false,speed:1,trail:[]};
+ $('watchOverlay').classList.remove('hidden');
+ $('watchPlayer').textContent=state.name;
+ $('watchPause').textContent='⏸ Pause';
+ $('watchSpeed').textContent='Speed: 1×';
+ watchTick();
+}
+function watchFinish(){
+ if(!watchSession)return;
+ const round=watchSession.round;
+ watchClose();
+ commitRound(round);
+}
+
+function watchMapPosition(hole,shot){
+ const t=Math.max(0,Math.min(1,shot/Math.max(1,hole.shots?.length||hole.strokes)));
+ const path=WATCH_PATH,seg=t*(path.length-1),i=Math.min(path.length-2,Math.floor(seg)),f=seg-i;
+ return [path[i][0]+(path[i+1][0]-path[i][0])*f,path[i][1]+(path[i+1][1]-path[i][1])*f];
+}
+function watchTick(){
+ const w=watchSession;if(!w||w.paused)return;
+ if(w.hole>=18){watchFinish();return}
+ const hole=w.round.holes[w.hole],shots=hole.shots||[],current=w.stroke+1;
+ const shot=shots[w.stroke]||{club:'Shot',yards:0,remaining:0,to:'Green',note:'',progress:current/hole.strokes};
+ const prior=w.round.holes.slice(0,w.hole).reduce((sum,h)=>sum+h.diff,0);
+ const p=watchMapPosition(hole,current),start=watchMapPosition(hole,0);
+ const trail=[start,...Array.from({length:current},(_,i)=>watchMapPosition(hole,i+1))];
+ $('watchRound').textContent='ROUND '+(w.roundIndex+1)+' · EVENT '+(state.eventIndex+1)+' / '+EVENTS.length;
+ $('watchHole').textContent='HOLE '+(w.hole+1)+' / 18';
+ $('watchPar').textContent='PAR '+hole.par+' · '+(hole.profile?.yards||'—')+' YDS';
+ $('watchTitle').textContent=EVENTS[state.eventIndex].name;
+ $('watchStroke').textContent='🏌️ '+shot.club+' · '+shot.yards+' yards';
+ $('watchScore').textContent=score(prior);
+ $('watchThrough').textContent=w.hole+' / 18';
+ $('watchShotCount').textContent=current+' / '+shots.length;
+ $('watchResult').textContent=shot.note+' · '+shot.to+' · '+shot.remaining+' yards remaining';
+ document.querySelector('.watch-scene').dataset.club=shot.club;
+ // Vary the map hazards and hole shape deterministically from the hole profile.
+ const profile=hole.profile||{water:false,bunkers:1,dogleg:false};
+ const svg=document.querySelector('.watch-map svg');
+ svg.querySelectorAll('.dynamic-hazard').forEach(n=>n.remove());
+ const ns='http://www.w3.org/2000/svg';
+ if(profile.water){let el=document.createElementNS(ns,'ellipse');el.setAttribute('class','dynamic-hazard');el.setAttribute('cx','95');el.setAttribute('cy','83');el.setAttribute('rx','37');el.setAttribute('ry','21');el.setAttribute('fill','#4b9fc3');svg.insertBefore(el,$('watchTrail'))}
+ for(let j=0;j<profile.bunkers;j++){let el=document.createElementNS(ns,'ellipse');el.setAttribute('class','dynamic-hazard');el.setAttribute('cx',String(132+j*34));el.setAttribute('cy',String(145-j*28));el.setAttribute('rx','15');el.setAttribute('ry','8');el.setAttribute('fill','#e4d5a0');svg.insertBefore(el,$('watchTrail'))}
+ $('watchTrail').setAttribute('d',trail.map((a,i)=>(i?'L':'M')+a[0].toFixed(1)+' '+a[1].toFixed(1)).join(' '));
+ $('watchMapBall').setAttribute('cx',p[0]);$('watchMapBall').setAttribute('cy',p[1]);
+ const golfer=$('watchGolfer'),ball=$('watchBallflight');
+ golfer.classList.remove('swing');ball.classList.remove('fly');void golfer.offsetWidth;
+ golfer.classList.add('swing');ball.classList.add('fly');
+ const totalStrokes=w.round.holes.reduce((sum,h)=>sum+(h.shots?.length||h.strokes),0);
+ const completed=w.round.holes.slice(0,w.hole).reduce((sum,h)=>sum+(h.shots?.length||h.strokes),0)+current;
+ $('watchBar').style.width=(completed/totalStrokes*100)+'%';
+ // Update live leaderboard using partial player score, plus AI holes at the same pace.
+ const e=EVENTS[state.eventIndex];
+ const myLive=state.rounds.reduce((n,r)=>n+r.total,0)+prior+(current>=shots.length?hole.diff:0);
+ const ai=state.field.map(p=>({name:p.name,total:p.rounds.slice(0,w.roundIndex).reduce((a,b)=>a+b,0)+Math.round(p.rounds[w.roundIndex]*(w.hole+1)/18)}));
+ const liveRank=1+ai.filter(p=>p.total<myLive).length;
+ $('watchResult').textContent+=' · LIVE POSITION #'+liveRank+' / 48';
+ if(current>=shots.length){
+   const result=hole.diff<=-3?'Albatross!':hole.diff===-2?'Eagle!':hole.diff===-1?'Birdie!':hole.diff===0?'Par':hole.diff===1?'Bogey':hole.diff===2?'Double bogey':'+'+hole.diff;
+   $('watchResult').textContent='Hole '+(w.hole+1)+': '+result+' · '+score(prior+hole.diff)+' · LIVE #'+liveRank;
+   $('watchScore').textContent=score(prior+hole.diff);$('watchThrough').textContent=(w.hole+1)+' / 18';
+   w.hole++;w.stroke=0;
+ }else w.stroke++;
+ watchTimer=setTimeout(watchTick,Math.round(1450/w.speed));
+}
+$('watchSkip').onclick=watchFinish;
+$('watchSkipHole').onclick=()=>{
+ const w=watchSession;if(!w)return;
+ clearTimeout(watchTimer);w.hole++;w.stroke=0;
+ if(w.hole>=18){watchFinish();return}
+ if(!w.paused)watchTick();
+ else {w.paused=false;watchTick();w.paused=true;clearTimeout(watchTimer);$('watchPause').textContent='▶ Resume'}
+};
+$('watchSpeed').onclick=()=>{
+ const w=watchSession;if(!w)return;
+ w.speed=w.speed===1?2:w.speed===2?4:1;
+ $('watchSpeed').textContent='Speed: '+w.speed+'×';
+ if(!w.paused){clearTimeout(watchTimer);watchTimer=setTimeout(watchTick,Math.round(1450/w.speed))}
+};
+$('watchPause').onclick=()=>{
+ if(!watchSession)return;
+ watchSession.paused=!watchSession.paused;
+ $('watchPause').textContent=watchSession.paused?'▶ Resume':'⏸ Pause';
+ if(watchSession.paused)clearTimeout(watchTimer);
+ else watchTick();
+};
+function nextEvent(){if(state.rounds.length<4)return;if(state.eventIndex===EVENTS.length-1){show('review');renderReview()}else{state.eventIndex++;newField();drawEvent();persist()}window.scrollTo({top:0,behavior:'smooth'})}
+function startNextSeason(){
+ state.history=state.history||[];
+ state.history.push({season:state.season||1,earnings:state.money,wins:state.wins,majors:state.majors,results:state.results});
+ state.season=(state.season||1)+1;
+ state.eventIndex=0;state.rounds=[];state.results=[];state.money=0;state.wins=0;state.majors=0;state.points=0;state.seasonFields={};state.missedCut=false;
+ state.seed=Math.floor(Math.random()*4294967295);newField();show('event');drawEvent();persist();
+}
+function renderReview(){let avg=state.results.reduce((n,r)=>n+r.rank,0)/state.results.length;$('seasonTitle').textContent=`${state.name}: season complete`;$('seasonSummary').textContent=`You completed all ${EVENTS.length} tournaments including the Masters, PGA Championship, U.S. Open and The Open.`;$('finalStats').innerHTML=`<div class="stat"><small>Total earnings</small><b>${shortMoney(state.money)}</b></div><div class="stat"><small>World rank*</small><b>#${worldRank()}</b></div><div class="stat"><small>Tour wins</small><b>${state.wins}</b></div><div class="stat"><small>Major titles</small><b>${state.majors}</b></div><div class="stat"><small>Top 10s</small><b>${state.results.filter(r=>r.rank<=10).length}</b></div><div class="stat"><small>Avg. finish</small><b>${avg.toFixed(1)}</b></div>`;$('seasonResults').innerHTML=state.results.map(r=>`<tr><td>${esc(r.name)}${r.major?' ★':''}</td><td>${ord(r.rank)}</td><td>${score(r.score)}</td><td>${money(r.prize)}</td></tr>`).join('');if(!$('nextSeasonBtn')){$('replayBtn').insertAdjacentHTML('beforebegin','<button class="btn" id="nextSeasonBtn">Continue to next season →</button>');$('nextSeasonBtn').onclick=startNextSeason}
+ $('seasonSummary').textContent+=' · Career season '+(state.season||1)+'. Previous seasons: '+(state.history||[]).length+'.';
+ renderSidebar();persist()}
+function persist(){try{localStorage.setItem('perfect72_season_v2',JSON.stringify(state))}catch(e){}}function restore(){try{let raw=localStorage.getItem('perfect72_season_v2');if(!raw)return false;let v=JSON.parse(raw);if(!v||typeof v.name!=='string'||!Array.isArray(v.results)||!v.selected)return false;state=v;if(state.phase==='draft'){show('draft');renderDraft()}else if(state.phase==='calendar'){show('calendar');renderCalendar()}else if(state.phase==='event'){show('event');drawEvent()}else if(state.phase==='review'){show('review');renderReview()}else{show('name');$('playerName').value=state.name}renderSidebar();return true}catch(e){return false}}
+function reset(){state=makeInitial();show('name');$('playerName').value='';$('draftHeading').textContent='Give your golfer a name';$('playerName').focus();renderSidebar()}
+$('nameBtn').onclick=()=>{let v=$('playerName').value.trim();if(!v){$('playerName').focus();return}state.name=v;state.step=0;state.selected={};state.rerolls=2;newOffers();show('draft');renderDraft();persist()};$('playerName').addEventListener('keydown',e=>{if(e.key==='Enter')$('nameBtn').click()});$('rerollBtn').onclick=()=>{if(state.rerolls>0){state.rerolls--;newOffers();renderDraft();persist()}};$('beginSeasonBtn').onclick=()=>{state.eventIndex=0;state.results=[];state.money=state.wins=state.majors=state.points=0;state.seasonFields={};newField();show('event');drawEvent();persist()};$('redraftBtn').onclick=()=>{if(confirm('Start a new golfer? Current progress will be lost.')){reset();persist()}};$('playRoundBtn').onclick=playRound;$('nextEventBtn').onclick=nextEvent;$('saveBtn').onclick=()=>{persist();$('saveBtn').textContent='✓ Saved';setTimeout(()=>$('saveBtn').textContent='Save season',1300)};$('loadBtn').onclick=()=>{if(!restore())alert('No saved career was found in this browser yet.')} ;$('replayBtn').onclick=()=>{if(confirm('Start a new career? Your current season will be replaced.')){reset();persist()}};$('shareBtn').onclick=async()=>{let t=`⛳ THE PERFECT 72 — ${state.name}\n${EVENTS.length} tournaments | ${state.wins} wins | ${state.majors} majors\nCareer earnings: ${money(state.money)}\nSimulated world rank: #${worldRank()}\n`+state.results.map(r=>`${r.name}: ${ord(r.rank)}, ${score(r.score)}, ${money(r.prize)}`).join('\n');try{await navigator.clipboard.writeText(t);$('shareBtn').textContent='✓ Copied season';}catch(e){let el=document.createElement('textarea');el.value=t;document.body.appendChild(el);el.select();document.execCommand('copy');el.remove();$('shareBtn').textContent='✓ Copied season'}};
+reset();
+</script></body></html>
